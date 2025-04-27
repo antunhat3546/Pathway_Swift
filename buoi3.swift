@@ -62,7 +62,7 @@ if (electric <= 50) {
 let user = "admin"
 let password = "123546"
 
-if (user == "admin" && password === "123456") {
+if (user == "admin" && password == "123456") {
     print("Đăng nhập thành công")
 } else {
     print("Đăng nhập thất bại")
