@@ -1,47 +1,47 @@
 // Thực hành 1
 
-// var strList = ["Swift", "Python", "C++"]
-// var intList = [1, 2, 3, 4, 5]
+var strList = ["Swift", "Python", "C++"]
+var intList = [1, 2, 3, 4, 5]
 
-// print(strList)
-// print(intList)
+print(strList)
+print(intList)
 
-// Thực hành 2
+Thực hành 2
 
-// var anyList: [Any] = ["text", "string", 1, 2, 3, true]
+var anyList: [Any] = ["text", "string", 1, 2, 3, true]
 
-// anyList[0] = "str"
+anyList[0] = "str"
 
-// anyList.append("abc")
+anyList.append("abc")
 
-// print("Danh sách: \(anyList)")
-// print("Độ dài danh sách: \(anyList.count)")
+print("Danh sách: \(anyList)")
+print("Độ dài danh sách: \(anyList.count)")
 
 // Thực hành 3
 
-// var list1 = ["a", "b", "c", "d"]
+var list1 = ["a", "b", "c", "d"]
 
-// list1.insert("abc", at: 2)
-// print(list1)
+list1.insert("abc", at: 2)
+print(list1)
 
-// list1.remove(at: 0)
-// print(list1)
+list1.remove(at: 0)
+print(list1)
 
-// list1.removeLast()
-// print(list1)
+list1.removeLast()
+print(list1)
 
 // Thực hành 4
 
-// var strList: [String] = ["b", "a", "d", "c"]
+var strList: [String] = ["b", "a", "d", "c"]
 
-// strList.sort()
-// print(strList)
+strList.sort()
+print(strList)
 
-// print(strList.contains("a"))
+print(strList.contains("a"))
 
-// for i in strList {
-//     print(i)
-// }
+for i in strList {
+    print(i)
+}
 
 // Bài 1
 
@@ -81,7 +81,7 @@ var intArray4: [Int] = [1,2,3,3,4,3,5,5,6,7,8,9,10]
 var repeatSet: [Int] = []
 var repeatArray: [Int] = []
 
-func int_count(value: Int, array: Array) {
+func int_count(value: Int, array: Array) -> Int {
     var count1: Int = 0
     for i in array {
         if {i == value} {
