@@ -12,7 +12,7 @@ print(score)
 score["Tin"] = 10
 print(score)
 
-// BTVN
+// BT
 var studentScore : [String :[String: Double]] = [
     "Nguyễn Văn A": [
         "Toán": 10,
